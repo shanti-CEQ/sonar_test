@@ -23,6 +23,6 @@ jobs:
       uses: kitabisa/sonarqube-action@v1.2.0
       with:
         host:  http://54.165.97.142:9000 
-        sonar.login: admin
-        sonar.password: admin
+        -Dsonar.login: admin 
+        -Dsonar.password: admin
         login: e9ae6473386df08e6d5caaf884edc0df85abc17e 
